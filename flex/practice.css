@@ -1,9 +1,13 @@
+body{
+    display: flex;
+}
 .parent{
     background-color:lightgreen;
     border: 3px solid green;
     height: 400px;
     width: 700px;
     padding: 10px;
+    flex: 1;
 }
 .top{
     background-color: lightblue;
