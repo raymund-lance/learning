@@ -80,3 +80,17 @@ body {
     bottom: 0;
     width: 100%;
 }
+.bottom .image {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bottom .image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
