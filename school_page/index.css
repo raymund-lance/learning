@@ -12,7 +12,7 @@
 }
 body {
     min-height: 100vh;
-    background-color: rgb(18, 32, 4);
+    background-color: rgb(22, 41, 2);
 }
 .header {
     font-family: 'title';
@@ -26,8 +26,14 @@ body {
     border-right: 0cap;
     padding: 20px;
 }
+.header h1 {
+    background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
 .sidebar {
-    position: absolute;
+    position: relative;
     height: 100vh;
     width: 80px;
     background-color: rgb(37, 31, 31);
@@ -35,7 +41,7 @@ body {
     transition: .5s;
 }
 .sidebar:hover {
-    width: 270px;
+    width: 310px;
 }
 .sidebar ul li {
     list-style: none;
@@ -93,4 +99,36 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.container {
+    display: flex;
+}
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+.content .divider {
+    letter-spacing: .5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(154, 206, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 40%;
+    overflow: hidden;
+    border: 2px solid rgb(184, 184, 141);
+}
+.content .RIP {
+    color: antiquewhite;
+    text-align: center;
+}
+.content .pin {
+    display: flex;
 }
