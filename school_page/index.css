@@ -60,13 +60,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 60px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidebar ul li.logo {
+    margin-bottom: 40px;
 }
 .sidebar ul li:hover {
-    border: 1px solid rgb(190, 181, 181);
+    border: 1px solid rgb(175, 167, 167);
     border-radius: 8px;
     background-color: whitesmoke;
 }
 .sidebar ul li a:hover {
     color: rgb(37, 31, 31);
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
